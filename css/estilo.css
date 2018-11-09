@@ -1,10 +1,62 @@
+/* Éste CSS es común a todas las páginas */
 body {
     background-color: lightgrey;
 }
 h1{
     text-align: center;
     color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav{
     color: blue;
+}
+div{
+    display: inline-block;
+}
+/* Aquí comienza el CSS de la página "index.html" */
+div#pre1{
+    float: left;
+    width: 550px;
+    margin: 10px;
+}
+div#pre2{
+    float: center;
+}
+div#pre3{
+    float: right;
+    width: 550px;
+    margin: 10px;
+}
+table.tab{ /* Éste CSS está compartido entre "index.html" e "historia.html" */
+    background-color: whitesmoke;
+    color: brown;
+    border: blue;
+}
+p#nombre{
+    text-align: center;
+    width: 1340px;
+    color: blue;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Aquí comienza el CSS de la página "historia.html" */
+div.his1{
+    float: left;
+    width: 550px;
+    margin: 10px;
+}
+div.his12{
+    float: right;
+    width: 700px;
+    margin: 10px;
+}
+div.his2{
+    float: right;
+    width: 550px;
+    margin: 10px;
+}
+div.his21{
+    float: right;
+    width: 700px;
+    margin: 10px;
 }

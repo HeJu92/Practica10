@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Desarrollado por Víctor Heredia Juárez, el 07/11/2018 -->
+    <!-- Desarrollado por Víctor Heredia Juárez, el xx/11/2018 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Durante ésta práctica, realizaré el "Perfil profesional" del actor Clint Eastwood, en lugar del mío
+    propio. Simulando que es él mismo el que presenta su perfil de forma muy básica -->
     <title>Práctica 10</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
-        <h1>PERFIL PROFESIONAL</h1>
+        <h1 id="perfil">PERFIL PROFESIONAL</h1>
         <hr>
-        <nav>Presentación | Un poco sobre mí | Currículum vitae PDF</nav>
+        <nav><a href="#perfil">Perfil profesional</a> | <a href="historia.html">Mi historia en el cine</a> | Currículum vitae PDF</nav>
         <hr>
     </header>
-    
+    <main>
+    <div>
+        <article>
+            <div id="pre1">
+                <table class="tab" border="2">
+                    <td>Mi nombre es Clint Eastwood, nací en San Francisco (California) en 1930.<br>
+                    Soy actor, director, productor, músico y compositor estadounidense.<br>
+                    Mi primer papel más relevante empezó con una serie de televisión llamada "Rawhide", como actor
+                    secundario, en 1959. Pero alcancé la fama interpretando al "Hombre sin nombre" en los spaguetti
+                    western comocidos como "La Trilogía del dólar", con las películas "Por un puñado de dólares", 
+                    "La muerte tenía un precio", y "El bueno, el feo, y el malo", durante los años 70 y 80.<br><br>
+                    Antes de empear mi carrera en el cine, tuve numerosos empleos, como socorrista, repartidor de
+                    periódicos, empleado de tienda, bombero forestal, o caddie de golf.<br>
+                    Aunque fui reclutado por el ejército de los Estados Unidos, destinado a Fort Ord (California), 
+                    durante la Guerra de Corea, donde desempeñé papeles de socorrista e instructor de natación 
+                    durante todo mi servicio militar.
+                    </td>
+                </table>
+            </div>
+        </article>
+        <div id="pre2"><img src="img/eastwood.jpg" alt="No se encontró la imagen"></div>
+        <div id="pre3">
+            <table class="tab" border="2">
+                <td><iframe width="400" height="230" src="https://www.youtube.com/embed/ZEQ5nTXz6jU?start=41" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </table></div>
+        <p id="nombre">CLINT EASTWOOD</p>   
+    </div>
+    </main>
+    <div>
+        <audio src="audio/Eastwood_sonido.mp3" type="audio/mpeg" loop autoplay>Audio</audio>
+    </div>
 </body>
 </html>
